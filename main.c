@@ -2,15 +2,15 @@
 
 int main(void)
 {
-    int input;
-    scanf("%d", &input);
-    if (0 /* TODO: ここに条件式を書く */)
-    {
-        printf("OK");
+    int x;
+
+    scanf("%d", &x);
+
+    if (10 <= x && x < 15 && x != 12) {
+        printf("OK\n");
+    } else {
+        printf("NG\n");
     }
-    else
-    {
-        printf("NG");
-    }
+
     return 0;
 }
